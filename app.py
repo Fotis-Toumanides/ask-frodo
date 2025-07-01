@@ -1,9 +1,13 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 from langchain_ollama.llms import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
 
 from vector import md_rag
 import os
 import streamlit as st
+import sqlite3
 
 
 ollama_url = os.environ.get("OLLAMA_API_BASE", "http://localhost:11434")
