@@ -2,5 +2,8 @@ langchain
 langchain-ollama
 langchain-chroma
 langchain-community
+ollama
 unstructured[md]
 pysqlite3-binary
+chromadb
+streamlit
