@@ -16,7 +16,7 @@ st.set_page_config(
 
 # Replace this with your actual channel token if not already done elsewhere
 channel_token = "your_channel_token_here"
-URL = f"https://payload.vextapp.com/hook/YT8U5QEG5K/catch/{channel_token}"
+URL = f"https://payload.vextapp.com/hook/S4I9LEFE7N/catch/$(channel_token)"
 
 headers = {
     "Content-Type": "application/json",
